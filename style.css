@@ -44,6 +44,20 @@
             flex-wrap: wrap;
             gap: 20px;
         }
+        .why {
+            text-align: center;
+            padding: 30px;
+            background-color: #122b55;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .why h2 {
+            color: gold;
+            margin-bottom: 10px;
+        }
+        .why p {
+            font-size: 16px;
+        }
         .card {
             background: #122b55;
             padding: 20px;
@@ -95,6 +109,14 @@
         .contact {
             text-align: center;
             padding: 20px;
+        }
+        .menu-item {
+            background-color: white;
+            padding: 20px;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
         }
         .map {
             padding: 20px;
